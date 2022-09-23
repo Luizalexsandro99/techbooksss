@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: logo;
+    src: url(../fonts/SPACEMAN.TTF);
+}
+
+
+@media(max-width:376px){
+
+    #main{
+        height: 100vh;
+        background-image: url(../images/fundobooks.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 20px;
+    }
+    
+    #tit375{
+        font-size: 2rem;
+        text-align: left;
+        color: white;
+        margin-left: 20px;
+        
+    }
+
+    #create375{
+        width: 350px;
+        height: 300px;
+        background-color: rgba(95, 90, 86, 0.856);
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #logotype375{
+        font-family:logo ;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+    }
+
+    #formulario{
+        margin-top: 10px;
+    }
+    
+    label{
+        color: white;
+    }
+
+    #butao{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #butao2{
+        width: 100%;
+    }
+
+    #error{
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        animation: campoErrado 2s infinite forwards alternate;
+        display: none;
+    }
+    
+    #sucesso{
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        display: none;
+    }
+
+    .sumindo {
+        animation: fugindo 3s;
+    }
+
+    @keyframes fugindo{
+        from{
+            transform: scale(0);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+}

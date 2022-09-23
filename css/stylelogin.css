@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@media(max-width:375px){
+    #formulario{
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    #butaoLogin{
+        width: 100%;
+    }
+
+    .mudandoVerde{
+        animation: mudandoGreen 3s;
+    }
+
+    .mudandoVermelho{
+        animation: mudandoRed 3s;
+    }
+
+    .sumindoErrorForm{
+        animation: sumindoForm 3s;
+    }
+
+    #butaoLoginDnv{
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+
+
+
+    @keyframes sumindoForm{
+        0%{
+            opacity: 1;
+        }50%{
+            opacity: 0;
+        }100%{
+            opacity: 1;
+        }
+    }
+
+    @keyframes mudandoGreen{
+        from{
+            background-color: rgba(95, 90, 86, 0.856)
+        }to{
+            background-color: rgba(57, 238, 2, 0.856)
+        }
+    }
+
+    @keyframes mudandoRed{
+        from{
+            background-color: rgba(95, 90, 86, 0.856)
+        }to{
+            background-color: rgba(255, 5, 5, 0.856)
+        }
+    }
+}

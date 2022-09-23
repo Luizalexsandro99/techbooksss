@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBooks</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stylelivros.css">
+</head>
+<body>
+
+    <header>
+        <h1>TechBooks</h1>
+    </header>
+
+    <div class="row" id="principalCard1">
+        <div class="col-sm-12">
+            <div class="card" id="card1">
+                <div class="card-img-top"><div id="meuCarrossel" class="carousel slide" data-ride="carousel">          
+                    <ul class="carousel-indicators">
+                        <li data-target="#meuCarrossel" data-slide-to="0" class="active"></li>           
+                        <li data-target="#meuCarrossel" data-slide-to="1"></li>                
+                        
+                    </ul>               
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="bg-info text-light d-flex justify-content-center align-items-center pgbr-carrousel-item">
+                                <img class="card-img-top imagens" src="../images/guifrontendcomprimido.jpg"  >
+                            </div>
+                        </div>                
+                        <div class="carousel-item ">
+                            <div class="bg-secondary text-light d-flex justify-content-center align-items-center pgbr-carrousel-item">
+                                <img class="card-img-top imagens" src="../images/jsguiadefinitivo.jpg" >
+                            </div>
+                        </div>                
+                    </div>
+                     <!-- Controles para a direita e esquerda  -->
+            
+                    <a class="carousel-control-prev" href="#meuCarrossel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+            
+                    <a class="carousel-control-next" href="#meuCarrossel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Destaques da semana</h4>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <p>Esses foram os livros mais baixados desta utima semana. Clique no botão abaixo e tenha acesso ao download.</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-info" id="butaoCard">Acesso livros da semana</a></button>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+
+            
+    <div id="sessoes">
+        <h2 >Escolher por sessao</h2>
+        <div class="row">
+            <div id="fun" class="col-6">
+                <ul>
+                    <li><a href="./bcd.html"><button class="btn btn-secondary btnsessao">BANCO DE DADOS</button></a></li>
+                    <li><a href="./reverseEngi.html"><button class="btn btn-dark btnsessao">R. ENGINEERING</button></a></li>
+                    <li><button class="btn btn-secondary btnsessao">DEVOPS</button></li>
+                </ul>
+            </div>
+
+            <div id="fun" class="col-6">
+                <ul>
+                    <li><button  class="btn btn-dark btnsessao ">HACKING</button></li>
+                    <li><button class="btn btn-secondary btnsessao">PROGRAMAÇÃO</button></li>
+                    <li><button  class="btn btn-dark btnsessao">REDES</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="row" id="principalCard2">
+        <div class="col-sm-12">
+            <div class="card" id="card1">
+                <div class="card-img-top"><div id="meuCarrossel" class="carousel slide" data-ride="carousel">          
+                    <ul class="carousel-indicators">
+                        <li data-target="#meuCarrossel" data-slide-to="0" class="active"></li>           
+                        <li data-target="#meuCarrossel" data-slide-to="1"></li>                
+                        
+                    </ul>               
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="bg-info text-light d-flex justify-content-center align-items-center pgbr-carrousel-item">
+                                <img class="card-img-top imagens" src="../images/coletaniaFrontEndComprimido.jpg"  >
+                            </div>
+                        </div>                
+                        <div class="carousel-item ">
+                            <div class="bg-secondary text-light d-flex justify-content-center align-items-center pgbr-carrousel-item">
+                                <img class="card-img-top imagens" src="../images/csseficientecomprimido.jpg" >
+                            </div>
+                        </div>                
+                    </div>
+                     <!-- Controles para a direita e esquerda  -->
+            
+                    <a class="carousel-control-prev" href="#meuCarrossel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+            
+                    <a class="carousel-control-next" href="#meuCarrossel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Destaques frontEnd</h4>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <p>1 - Coletânea front-end<br>2 - Css eficiente<br> Esses foram so livros mais baixados da semana relacionado a front-end</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-info" id="butaoCard">Acesso livros da semana</a></button>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+
+    <div id="sessoes2">
+        <h2 >Escolher por sessao</h2>
+        <div class="row">
+            <div id="fun" class="col-6">
+                <ul>
+                    <li><button class="btn btn-secondary btnsessao">UI/UX</button></li>
+                    <li><button class="btn btn-dark btnsessao">ORGANIZAÇÃO DE COMPUTADORES</button></li>
+                    <li><button class="btn btn-secondary btnsessao">VÍRUS</button></li>
+                </ul>
+            </div>
+
+            <div id="fun" class="col-6">
+                <ul>
+                    <li><button  class="btn btn-dark btnsessao ">SISTEMAS OPERACIONAIS</button></li>
+                    <li><button class="btn btn-secondary btnsessao">VM E NUVENS</button></li>
+                    <li><button  class="btn btn-dark btnsessao">FORENSE</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- <img src="../images/javascript-o-guia-definitivo.jpg" width="300px" alt="">
+    <button class="btn btn-outline-primary"><a href="../books/javascriptguiadefinitivo.pdf" download="javascriptguiadefinitivo.pdf">Baixe aqui</a></button> -->
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+</html>

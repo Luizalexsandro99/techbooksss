@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: logo;
+    src: url(../fonts/SPACEMAN.TTF);
+}
+
+header{
+    background-color: rgb(21, 136, 156);
+    padding: 10px;
+    color: white;
+    font-family: logo;
+    padding-top: 15px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 1.2rem;
+}
+
+#principalCard1{
+    padding: 0%;
+}
+
+#butaoCard{
+    width: 100%;
+}
+
+.imagens{
+    width: 220px;
+}
+
+#sessoes h2{
+    font-size: 1rem;
+    font-family: logo;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.btnsessao{
+    width: 100%;
+}
+
+#principalCard2{
+    margin-top: 10px;
+    padding: 0%;
+}
+
+#sessoes2 h2{
+    font-size: 1rem;
+    font-family: logo;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#sessoes2 li{
+    width: 100%;
+}
