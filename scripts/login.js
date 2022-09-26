@@ -21,7 +21,7 @@ botaoEntrar.onclick = function login(){
     .then(()=>{
         setTimeout(()=>{
             create375.classList.add('mudandoVerde')
-            window.open('http://127.0.0.1:5500/html/principal.html')
+            window.open('https://luizalexsandro99.github.io/techbooksss/html/login.html')
         }, 1000)
     }).catch(() =>{
         setTimeout(()=>{
