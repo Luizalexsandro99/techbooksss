@@ -14,5 +14,5 @@ function valorDigitado() {
 valorDigitado()
 
 butao2.onclick = ()=>{
-    window.open('http://127.0.0.1:5500/html/login.html')
+    window.open('https://luizalexsandro99.github.io/techbooksss/html/login.html')
 }
