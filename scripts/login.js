@@ -19,7 +19,7 @@ botaoEntrar.onclick = function login(){
 
     auth.signInWithEmailAndPassword(userEmail, userSenha)
     .then(()=>{
-            window.open('https://luizalexsandro99.github.io/techbooksss/html/principal.html')
+             window.open('https://luizalexsandro99.github.io/techbooksss/html/principal.html') 
     }).catch(() =>{
         setTimeout(()=>{
             create375.classList.add('mudandoVermelho')
