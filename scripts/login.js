@@ -19,10 +19,7 @@ botaoEntrar.onclick = function login(){
 
     auth.signInWithEmailAndPassword(userEmail, userSenha)
     .then(()=>{
-        setTimeout(()=>{
-            create375.classList.add('mudandoVerde')
             window.open('https://luizalexsandro99.github.io/techbooksss/html/login.html')
-        }, 1000)
     }).catch(() =>{
         setTimeout(()=>{
             create375.classList.add('mudandoVermelho')
@@ -34,6 +31,6 @@ botaoEntrar.onclick = function login(){
 }
 
 butaoLoginDnv.onclick = function reset(){
-    window.open('http://127.0.0.1:5500/html/login.html')
+    window.open('https://luizalexsandro99.github.io/techbooksss/html/login.html')
 }
 
